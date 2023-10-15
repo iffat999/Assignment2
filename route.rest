@@ -1,0 +1,34 @@
+GET http://localhost:4444/productrouters
+
+###
+GET  http://localhost:4444/productrouters/652b6d37770186cb70c30914
+
+
+
+###
+POST http://localhost:4444/productrouters
+Content-Type: application/json
+
+{
+    "name": "Shirt",
+    "description": "A cool T-shirt",
+    "price": 19.99,
+    "published": true,
+    "category": "Men"
+}
+###
+DELETE http://localhost:4444/productrouters/652b6de379e5c37c0fac2272
+
+
+###
+
+PUT http://localhost:4444/productrouters/652b6c4fe3cf35a2f7b7a95d
+Content-Type: application/json
+
+{
+    "name": "pant",
+    "description": "A cool pant",
+    "price": 20.99,
+    "published": true,
+    "category": "Men"
+}
